@@ -34,7 +34,7 @@ namespace ObjectOrientedProgramming
         }
         private void Salary()
         {
-            Console.WriteLine("Salary: 10000");
+            Console.WriteLine("Salary: 1000");
         }
 
         public override void CompanyDetails()

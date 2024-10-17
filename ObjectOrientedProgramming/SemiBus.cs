@@ -15,9 +15,9 @@ namespace ObjectOrientedProgramming
         {
             Console.WriteLine("Capacity:20");
         }
-        public override void BusDetails()
+        public override void BusDetail()
         {
-            Console.WriteLine($"This Semi-School-Bus have {Wheel} wheels");
+            Console.WriteLine($"This Semi-School-Bus have {Wheel} wsdheels");
         }
     }
 }

@@ -12,9 +12,9 @@ namespace ObjectOrientedProgramming
         { 
             
         }
-        public sealed override void BusDetails()
+        public sealed override void BusDetail()
         {
-            BusDetails();
+            BusDetail();
         }
     }
 }

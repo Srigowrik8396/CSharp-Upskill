@@ -9,6 +9,7 @@ namespace CSharpRevision
 {
     class CollectionSample
     {
+        public int id { get; set; }
             //Non-Generic Collection ArrayList / HashTable
 
             //ArrayList arrayList = new ArrayList();

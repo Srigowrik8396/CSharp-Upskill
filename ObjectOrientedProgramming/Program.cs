@@ -6,16 +6,16 @@ calculator.Add(10, 50);
 calculator.Add(20, 50, 60);
 
 Bus bus = new Bus(6);
-bus.BusDetails();
+bus.BusDetail();
 
 SemiBus semiBus = new SemiBus(8);
-semiBus.BusDetails();
+semiBus.BusDetail();
 
-Bus semiBusObj = new SemiBus(6);
-semiBusObj.BusDetails();
+Bus semiBusObj = new SemiBus(60);
+semiBusObj.BusDetail();
 
 SemiBus schoolBusObj = new SemiSchoolBus(4);
-schoolBusObj.BusDetails();
+schoolBusObj.BusDetail();
 schoolBusObj.BusCapacity();
 
 Employee employee = new Employee(1, "Maxwell","Boss","Google", "GoogleDescription");

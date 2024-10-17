@@ -12,9 +12,9 @@ namespace ObjectOrientedProgramming
         {
             Console.WriteLine($"Addition of two number is: {x+y}");
         }
-        public void Add(int x, int y,int z)
+        public void Add(int x, int y,int b)
         {
-            Console.WriteLine($"Addition of three number is: {x+y+z}");
+            Console.WriteLine($"Addition of three number is: {x+y+b}");
         }
     }
 }

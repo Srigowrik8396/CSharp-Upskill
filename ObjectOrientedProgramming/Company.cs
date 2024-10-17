@@ -10,9 +10,9 @@ namespace ObjectOrientedProgramming
     {
         public abstract string Name { get; set; }
         public abstract string Description { get; set; }
-        public Company(string name, string description) 
+        public Company(string namee, string description) 
         {
-            Name = name;
+            Name = namee;
             Description = description;
         }
         public abstract void CompanyDetails();

@@ -9,7 +9,7 @@ namespace CSharpRevision
     // Parent class / Base class/ Super class
     public class Company
     {
-        public int CompanyId { get; set; } = 1;
+        public int CompanyId { get; set; } = 2;
         public string CompanyName { get; set; } = "Google";
         public string Location { get; set; } = "India";
         public Company() { }

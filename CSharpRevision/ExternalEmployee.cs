@@ -9,17 +9,17 @@ namespace CSharpRevision
     public class ExternalEmployee : Company
     {
         public int ExternalEmployeeId { get; set; }
-        public string ExternalEmployeeName { get; set; }
+        public string ExternalEmployeeNamee { get; set; }
         public double ExternalEmployeeSalary { get; set; }
         public ExternalEmployee(int externalEmployeeId, string externalEmployeeName, double externalEmployeeSalary,int companyId, string companyName, string location) : base(companyId, companyName, location)
         {
             ExternalEmployeeId = externalEmployeeId;
-            ExternalEmployeeName = externalEmployeeName;
+            ExternalEmployeeNamee = externalEmployeeName;
             ExternalEmployeeSalary = externalEmployeeSalary;
         }
         public void ExternalEmployeeDetails()
         {
-            Console.WriteLine($"Employee Name: {ExternalEmployeeName} and Salary: {ExternalEmployeeSalary}");
+            Console.WriteLine($"Employee Name: {ExternalEmployeeNamee} and Salary: {ExternalEmployeeSalary}");
         }
     }
 }

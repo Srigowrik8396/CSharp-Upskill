@@ -8,6 +8,6 @@ namespace CSharpRevision
 {
     internal interface IEmployeeSalary
     {
-        void SalaryDetails();
+        void SalaryDetailss();
     }
 }

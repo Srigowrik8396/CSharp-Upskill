@@ -30,7 +30,7 @@ namespace CSharpRevision
             //facebookBoss.SalaryDetails();
 
             ExternalEmployee externalEmployeeObj = new ExternalEmployee(101, "Barathean",
-                30000, 4589, "Facebook", "USA");
+                30000, 459, "Facebook", "USA");
             externalEmployeeObj.DisplayCompanyDetails();
             externalEmployeeObj.ExternalEmployeeDetails();
 

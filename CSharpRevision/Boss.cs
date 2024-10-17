@@ -8,7 +8,7 @@ namespace CSharpRevision
 {
     public class Boss:Employee
     {
-        public Boss(int employeeId, string employeeName, string address, double salary, int companyId, string companyName, string location) :base(employeeId, employeeName, address, salary, companyId, companyName, location)
+        public Boss(int employeeId, string employeeName, string address, double salary, int companyId, string companyName, string locatonn) :base(employeeId, employeeName, address, salary, companyId, companyName, locatonn)
         {
 
         }

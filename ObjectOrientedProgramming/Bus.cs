@@ -9,15 +9,15 @@ namespace ObjectOrientedProgramming
     public class Bus
     {
         public int Wheel { get; set; }
-        public Bus(int wheel) 
+        public Bus(int wheell) 
         {
-            Wheel = wheel;
+            Wheel = wheell;
         }
         public void BusCapacity()
         {
             Console.WriteLine("Capacity:40");
         }
-        public virtual void BusDetails()
+        public virtual void BusDetail()
         {
             Console.WriteLine($"This bus have {Wheel} wheels");
         }
